@@ -1,0 +1,252 @@
+*{margin: 0; padding: 0;}
+body {
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzM1Oe2KbCMI78XLb33Hob3K64FSNE-OHvTbSFqst3YAQaJ0YaFQ");
+	width: 100%;
+	height: 100%;
+}
+#block-body {
+	width: 1035px;
+	margin: 5px auto;
+	height: auto;
+}
+
+header {
+	width: 1035px;
+	height: 80px; 
+	background-image: url("https://www.everynation.org/wp-content/uploads/2018/02/Monthly-Website-Header-background.jpg");
+	margin-bottom: 50px;
+}
+
+.logo {
+	width: 200px;
+	float: left;
+	height: 80px;
+}
+.logo a{
+	display: block;
+	margin-left: 20px;
+	margin-top: 10px;
+	font-family: Arial, sans-serif;
+	font-size: 28px;
+	color: #b2aeb2;
+	text-decoration: none;
+	cursor: pointer;
+}
+.use {
+	color: #aa064b;
+}
+.web {
+	color: #429595;
+}
+.logo p {
+	margin-left: 20px;
+	margin-top: 2px;
+	margin-bottom: 5px;
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+	color: white;
+}
+
+.top-menu {
+	width: 685px;
+	height: 80px;
+	float: left;
+}
+.top-menu ul li {
+	list-style: none;
+	float: left;
+	text-align: center;
+}
+.top-menu ul li a{
+	display: block;
+	width: 171px;
+	height: 55px;
+	text-decoration: none;
+	font-family: Arial, sans-serif;
+	font-size: 17px;
+	color: white;
+	padding-top: 25px;
+	cursor: pointer;
+}
+.top-menu ul li a:hover {
+	background: #00ADE4;
+	transition: all 0.5s ease;
+}
+.block-top-auth {
+	width: 100px;
+	height: 80px;
+	float: left;
+	margin-left: 40px;
+}
+.block-top-auth p {
+	margin-top: 12px;
+	text-align: center;
+	margin-bottom: 8px;
+}
+.block-top-auth a {
+	text-decoration: underline;
+	color: white;
+	font-family: Arial, sans-serif;
+	font-size: 15px;
+	cursor: pointer;
+}
+.block-top-auth a:hover {
+	transition: all 0.5s ease;
+	color: #00ADE4;	 
+}
+.visibleMenu {
+	width: 172px;
+	height: 220px;
+	margin-top: 80px;
+	background: black;
+	opacity: 0.7;
+	display: none;
+}
+.subMenu {
+	float: left;
+	margin-left: 30px;
+}
+.subMenu p {
+	font-family: sans-serif;
+	font-size: 19px;
+	color: white;
+	text-align: center;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+.subMenu ul {
+	border-top: 2px solid white;
+}
+.subMenu ul li {
+	float: none;
+	list-style: none;
+	text-align: center;
+	margin-bottom: 5px;
+}
+.subMenu ul li a {
+	display: block;
+	width: 130px;
+	height: 25px;
+	text-decoration: none;
+	font-family: sans-serif;
+	font-size: 17px;
+	color: white;
+	cursor: pointer;
+	padding-top: 3px;
+}
+.down, .up {
+	font-size: 12px;
+}
+/*-------------------------content-------------------------------*/
+#contentForGallery {
+	margin-top: 50px;
+	margin-bottom: 50px; 
+}
+#contentForGallery img {
+	transition: 1s;
+	padding: 15px;
+	width: 300px;
+	height: 400px;
+}
+#contentForGallery img:hover {
+	filter: grayscale(100%);
+	transform: scale(1.1);
+}
+.moreInfo{
+	text-decoration: none;
+	font-family: Arial,sans-serif;
+	font-size: 19px;
+	cursor: pointer;
+}
+#picButton {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: #428C89;
+	font-weight: bold;
+	font-size: 14px;
+	transition: all 0.5s;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	float: left;
+	margin-top: 50px;
+
+}
+#picButton:hover {
+  background-color: #008CBA;
+  color: white;
+}
+#commentary {
+	border-radius: 20px;
+	margin-left: 30px;
+	margin-top: 50px;
+	width: 550px;
+	height: 80px; 
+	float: left;
+	font-family: Arial, sans-serif;
+	font-size: 20px;
+	padding: 10px;
+	opacity: 0.5;
+
+}
+/*-----------------footer---------------------*/
+#footer-site {
+	width: 1035px;
+	height: 80px;
+	padding-bottom: 0px; 
+	padding-top: 20px;
+	margin-bottom: 25px;
+	background-color: black;
+	margin-left: 225px;
+	text-align: center;
+}
+#footer-site, #footer-site a {
+	color: #fff;
+}
+#footer-site a {
+	text-decoration: none;
+	display: inline-block;
+	margin: 10px;
+}
+
+.widget-social {
+	list-style: none;
+	display: inline-block;
+	margin-right: 20px;
+
+}
+
+/*---------------button fo like photo-------------------------------*/
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+}
+
+.container img {
+    width: 100%;
+    height: auto;
+}
+
+.container .btn {
+    position: absolute;
+    top: 88%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 10px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.container .btn:hover {
+    background-color: black;
+}
+
+
+
+
